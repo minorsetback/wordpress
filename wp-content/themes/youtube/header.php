@@ -14,6 +14,7 @@
   <div class="fixed">
 
     <header class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png" alt="" class="burger" />
       <a href="#">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/logo.png" alt="YouTube Logo" class="youtube-logo" />
       </a>
@@ -39,18 +40,4 @@
       </div>
 
     </header>
-    <div class="categories">
-      <section class="category-section">
-        <button class="category active">All</button>
-        <button class="category">Category 1</button>
-        <button class="category">Category 2</button>
-        <button class="category">Category 3</button>
-        <button class="category">Category 4</button>
-        <button class="category">Category 5</button>
-        <button class="category">Category 6</button>
-        <button class="category">Category 7</button>
-        <button class="category">Category 8</button>
-        <button class="category">Category 9</button>
-      </section>
-    </div>
   </div>
