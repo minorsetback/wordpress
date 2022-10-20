@@ -28,7 +28,6 @@ body {
   background: #131313;
 }
 
-
 .video-container {
   display: flex;
   flex-direction: column;
@@ -58,7 +57,13 @@ body {
   min-height: 150px;
   background-color: #aaa;
 }
-
+.thumbnail-image.shorts {
+  width: 100%;
+  height: 100%;
+  min-width: 250px;
+  min-height: 450px;
+  background-color: #aaa;
+}
 .video-bottom-section {
   display: flex;
   align-items: flex-start;
@@ -91,8 +96,8 @@ body {
   text-decoration: none;
   transition: color 150ms;
 }
-.icon{
-  width: 15px;
+.icon {
+  width: 24px;
   margin-right: 24px;
 }
 .video-channel-name:hover {
@@ -111,6 +116,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem;
+  color: white;
 }
 
 .video-section-title-close {
@@ -230,7 +236,6 @@ body {
   color: white;
   z-index: 9999;
   top: 74px;
-  padding-left: 40px;
 }
 
 .main {
@@ -273,4 +278,114 @@ body {
   width: 36px;
   height: 36px;
   background-color: #aaa;
+}
+
+.shorts {
+  width: 24px;
+}
+
+.side-bar > p:hover {
+  margin: 0;
+  padding: 10px 40px;
+  background-color: #777;
+}
+
+.side-bar > p {
+  margin: 0;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #3c3c3c;
+}
+
+.thumbnail.shorts::before {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .side-bar-wrapper {
+    width: 110px;
+  }
+  .side-bar {
+    width: 100px;
+    height: 80vh;
+    overflow-y: auto;
+  }
+  .side-bar > p {
+    flex-direction: column;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    gap: 5px;
+    align-self: stretch;
+  }
+
+  .icon {
+    margin: 0;
+  }
+
+  .search-input {
+    width: 30vw;
+  }
+
+  .category-section {
+    width: 83vw;
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .side-bar-wrapper {
+    width: 110px;
+    display: none;
+  }
+
+  .icon {
+    margin: 0;
+  }
+
+  .search-input {
+    width: 30vw;
+  }
+  .search-bar {
+    margin: 0;
+  }
+  .category-section {
+    width: 90vw;
+    overflow-x: auto;
+  }
+  .menu-icons {
+    width: 50px;
+  }
+  .menu-icons > a:nth-child(1) {
+    width: 0;
+    display: none;
+  }
+  .menu-icons > a:nth-child(2) {
+    display: none;
+  }
+  .menu-icons > a:nth-child(3) {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+
+  .video-section.short {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    margin: 0;
+    gap: 50px;
+  }
+
+  .video-section.short >video-card>article{
+    width: 250px;
+  }
 }

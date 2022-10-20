@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+  <script type="text/javascript" src="<?php echo get_template_directory_uri()?>'/assets/js/webComponent.js'"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
