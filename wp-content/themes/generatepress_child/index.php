@@ -69,6 +69,13 @@
       <video-card title='Video Title' image='http://unsplash.it/250/150?gravity=center' user='test' time='last week' views='12K views '></video-card>
     </section>
     <section class="video-section short">
+      <h2 class="video-section-title">
+        <div>
+          <img src="https://www.edigitalagency.com.au/wp-content/uploads/Youtube-shorts-icon-png.png" class="shorts" alt='shorts' class= />
+          Shorts
+        </div>
+        <button class="video-section-title-close">&times;</button>
+      </h2>
       <video-card title='Video Title' image='https://i.ytimg.com/vi/w2BNl1vI1pk/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAlq7b3tl3hqBJkhfEwsMwipR7Yzw' user='test' time='last week' views='12K views ' short='shorts'></video-card>
       <video-card title='Video Title' image='https://i.ytimg.com/vi/w2BNl1vI1pk/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAlq7b3tl3hqBJkhfEwsMwipR7Yzw' user='test' time='last week' views='12K views ' short='shorts'></video-card>
       <video-card title='Video Title' image='https://i.ytimg.com/vi/w2BNl1vI1pk/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAlq7b3tl3hqBJkhfEwsMwipR7Yzw' user='test' time='last week' views='12K views ' short='shorts'></video-card>
